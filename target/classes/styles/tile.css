@@ -1,0 +1,11 @@
+.label {
+    -fx-text-fill: #243133;
+}
+
+.anchorPane {
+    -fx-background-radius: 40;
+    -fx-background-color: #b0eff7;
+}
+.imageView {
+    -fx-effect: dropshadow(three-pass-box,rgba(0,0,0,8),10,0,0,0);
+}

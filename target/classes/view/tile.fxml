@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="84.0" prefWidth="568.0" styleClass="anchorPane" stylesheets="@../styles/tile.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.shytov.controller.TileController">
+   <children>
+      <ImageView styleClass="imageView" fx:id="imageView" fitHeight="67.0" fitWidth="94.0" layoutX="37.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="nameView" layoutX="148.0" layoutY="34.0" />
+      <Label fx:id="descriptionView" layoutX="284.0" layoutY="34.0" />
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>
